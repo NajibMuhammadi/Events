@@ -1,5 +1,5 @@
 # Events
-_För att uppnå en VG har jag använt mig av __react-barcode__ och __react-toastify__ vilka båda är ett externa bibliotek._
+_För att uppnå en VG har jag använt mig av __react-barcode__ och __react-toastify__._
 
 ___React-barcode___
 _är ett externt bibliotek för att generera streckkoder. Det är användbart för scenarier där du behöver generera och visa streckkoder i din applikation, vilket kan spara tid, såsom denna examinationsuppgift. villket jag tyckte passade bäst att använda den._
