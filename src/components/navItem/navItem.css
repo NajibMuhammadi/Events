@@ -1,0 +1,22 @@
+.header__list {
+    display: flex;
+    width: 100%;
+    background-color: var(--title-pink);
+}
+
+.header__list-link {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: var(--subtitle-white);
+    cursor: pointer;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__list-link:hover {
+    color: black;
+    background-color: var(--subtitle-white);
+}

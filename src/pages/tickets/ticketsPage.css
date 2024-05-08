@@ -1,0 +1,128 @@
+.tickets__not-exist {
+    background-color: var(--background-container);
+    height: 100vh;
+    overflow: scroll;
+    display: grid;
+    place-items: center;
+}
+
+.tickets__not-title {
+    font-size: 20px;
+    font-family: SanitaOne;
+    line-height: 37.28px;
+    color: var(--title-pink);
+    text-shadow: 1px 1px 0 #F56B9A;
+}
+
+.ticket__container {
+    overflow: scroll;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(245, 107, 154, 1) 0%, rgba(35, 31, 66, 1) 61%, rgba(35, 31, 66, 1) 83%);
+    padding-bottom: 4rem;
+}
+
+.ticket__container-center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ticket__title {
+    color: var(--title-pink);
+    font-family: SanitaOne;
+    font-size: 26px;
+    line-height: 30.28px;
+    padding: .5rem 0;
+}
+
+.tickets__info-container {
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.tickets__what-container {
+    padding: .5rem;
+    border-bottom: 1px dashed rgba(110, 109, 109, 0.4);
+}
+
+.tickets__what,
+.tickets__where,
+.range__common-title,
+.tickets__seat-title {
+    font-family: "Fira Sans";
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.tickets__location-container {
+    border-bottom: none;
+    padding: .5rem;
+    background: rgba(0, 0, 0, 0.03)
+}
+
+.tickets__location,
+.range__common {
+    font-family: "Fira Sans";
+    font-size: 18px;
+    line-height: 21.6px;
+    padding: .8rem 0 1rem;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.tickets__range-container {
+    display: flex;
+    align-items: center;
+    border-top: 1px dashed rgba(110, 109, 109, 0.4);
+    border-bottom: 1px dashed rgba(110, 109, 109, 0.4);
+    background: rgba(0, 0, 0, 0.06)
+}
+
+.range__common,
+.tickets__seat {
+    padding: 0 .5rem .5rem;
+}
+
+.range__common {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.range__date-container,
+.range__time-container {
+    width: 100%;
+    border-left: 1px dashed rgba(110, 109, 109, 0.4);
+}
+
+.range__date-container {
+    border-left: none;
+}
+
+.range__common-title,
+.tickets__seat-title {
+    padding: .5rem;
+
+}
+
+.tickets__seat-container {
+    background: rgba(0, 0, 0, 0.09)
+}
+
+.tickets__seat {
+    font-family: "fira Sans";
+    font-size: 12px;
+    line-height: 14.4px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.tickets__barcode-container {
+    padding-top: 1rem;
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.tickets__barcode {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tickets__barcode svg {
+    width: 100% !important;
+}

@@ -1,0 +1,133 @@
+.order__container,
+.order__empty-container {
+    background-color: var(--background-container);
+    height: 90vh;
+    overflow: scroll;
+}
+
+.order__empty-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__empty-title {
+    font-size: 20px;
+    font-family: SanitaOne;
+    line-height: 37.28px;
+    color: var(--title-pink);
+    text-shadow: 1px 1px 0 #F56B9A;
+}
+
+.order__container-center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.order__title {
+    color: var(--title-pink);
+    text-align: center;
+    padding: 1.5rem 1.5rem 1rem;
+    font-family: SanitaOne;
+    font-size: 32px;
+    line-height: 37.28px;
+}
+
+.order__event {
+    margin-top: 1rem;
+}
+
+.order__details {
+    border: 1px solid #F56B9A;
+    padding: .5rem;
+}
+
+.order__details-title {
+    font-family: SanitaOne;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27.96px;
+    color: var(--title-pink);
+}
+
+.order__details-text {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #37AEAB;
+    ;
+}
+
+.order__btn-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.decrementbtn,
+.incrementbtn {
+    font-size: 20px;
+    border-radius: 1px;
+}
+
+.order__count {
+    grid-column: 2 /4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decrementbtn,
+.order__count,
+.incrementbtn {
+    border: 1px solid #F56B9A;
+    padding: .5rem;
+    background-color: transparent;
+    color: var(--subtitle-white);
+}
+
+.order__total-container {
+    margin: 1rem;
+}
+
+.order__total-text {
+    font-family: "Fira Sans";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 19px;
+    line-height: 22.8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.order__total-price {
+    font-family: "Fira Sans";
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    line-height: 38.4px;
+    color: var(--subtitle-white);
+    text-shadow: 1px 1px 0 #F56B9A;
+    padding-top: .5rem;
+}
+
+.order__btn {
+    font-family: "Fira Sans";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.4px;
+    text-align: center;
+    background-color: #37AEAB;
+    color: var(--subtitle-white);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+
+.foot__header {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

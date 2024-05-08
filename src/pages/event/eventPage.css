@@ -1,0 +1,134 @@
+.eventPage__container {
+    background-color: var(--background-container);
+    height: 90vh;
+    overflow: scroll;
+}
+
+.eventPage__Container-center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.eventPage__arrow-container {
+    font-size: 32px;
+    padding: 1rem 1rem 2rem;
+    display: flex;
+}
+
+.eventPage__arrow-link {
+    color: var(--subtitle-white);
+}
+
+.eventPage__title {
+    font-family: SanitaOne;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.28px;
+    text-align: center;
+    color: var(--title-pink);
+    margin: 0 auto;
+}
+
+.eventPage__text {
+    font-family: 'Fira sans';
+    font-style: italic;
+    font-size: 19px;
+    line-height: 22.8px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.eventPage__username {
+    font-family: SanitaOne;
+    font-size: 35px;
+    line-height: 40.78px;
+    text-align: center;
+    color: #F56B9A;
+    margin-top: 1rem;
+}
+
+.eventPage__date-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.eventPage__date,
+.eventPage__mon,
+.eventPage__text-details,
+.eventPage__location {
+    font-family: 'Fira sans';
+    font-size: 19px;
+    line-height: 22.8px;
+    text-align: center;
+    color: #37AEAB;
+    padding: .2rem 0;
+}
+
+.eventPage__location {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.eventPage__price-container {
+    margin: 2rem auto;
+    width: 70%;
+    text-align: center;
+}
+
+.eventPage__totalPrice {
+    border: 1px solid #F56B9A;
+    padding: 1.5rem;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-shadow: 1px 1px 0 #F56B9A;
+    color: var(--subtitle-white);
+}
+
+.eventPage__btn-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.decrementButton,
+.count,
+.incrementButton {
+    border: 1px solid #F56B9A;
+    padding: .5rem;
+    background-color: transparent;
+    color: var(--subtitle-white);
+}
+
+.decrementButton,
+.incrementButton {
+    font-size: 20px;
+    border-radius: 1px;
+}
+
+.count {
+    grid-column: 2 /4;
+}
+
+.event__btn {
+    font-family: "Fira Sans";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26.4px;
+    text-align: center;
+    background-color: #37AEAB;
+    color: var(--subtitle-white);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+
+.foot__header {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
